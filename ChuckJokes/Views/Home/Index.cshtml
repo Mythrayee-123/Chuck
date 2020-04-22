@@ -1,0 +1,45 @@
+﻿
+@model HomeDetailViewModel
+
+
+@{
+
+    ViewBag.Title = "ChuckNorris";
+}
+
+
+
+    <div class="col-sm-6">
+
+
+      
+        <form asp-controller="Home" asp-action="Index">
+            <div class="input-group">
+                <!--code to input the value of the text box-->
+                <input type="text" name="SearchTerm" class="form-control">
+                <!--<input  asp-for="SearchTerm" />-->
+                <div class="input-group-append">
+                    <button type="Submit" class="btn btn-primary">JokeSearch</button>
+                </div>
+            </div>
+           
+        </form>
+    </div>
+    <div class="card-body text-center ">
+
+        @if(Model != null && Model.SearchTerm != null)
+        {
+            <p>@Model.SearchTerm.Joke</p>
+        }
+       
+    </div>
+                
+<h1 class="text-center">ChuckNorris</h1>
+<img class="rounded mx-auto d-block" alt="ChukkNorris" src="~/images/Capture.jpg" />
+
+
+
+
+
+
+

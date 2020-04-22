@@ -1,0 +1,22 @@
+﻿@model HomeDetailViewModel
+
+@{
+
+    ViewBag.Title = "CategoryList";
+}
+<div class="row justify-content-center m-3 ">
+    <div class="align-content-lg-end">
+        <div>
+            <h2 class="text-center"> @Model.Category.Items</h2>
+
+        </div>
+
+        <div class="card-body text-center ">
+
+
+            <h4>@Model.Category.Joke</h4>
+        </div>
+
+    </div>
+</div>
+@Html.ActionLink("Back toList", "Categories")

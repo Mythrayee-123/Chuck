@@ -1,0 +1,11 @@
+C:\Users\yathi\source\repos\CalRemainders\CalRemainders\bin\Debug\netcoreapp3.1\CalRemainders.exe
+C:\Users\yathi\source\repos\CalRemainders\CalRemainders\bin\Debug\netcoreapp3.1\CalRemainders.deps.json
+C:\Users\yathi\source\repos\CalRemainders\CalRemainders\bin\Debug\netcoreapp3.1\CalRemainders.runtimeconfig.json
+C:\Users\yathi\source\repos\CalRemainders\CalRemainders\bin\Debug\netcoreapp3.1\CalRemainders.runtimeconfig.dev.json
+C:\Users\yathi\source\repos\CalRemainders\CalRemainders\bin\Debug\netcoreapp3.1\CalRemainders.dll
+C:\Users\yathi\source\repos\CalRemainders\CalRemainders\bin\Debug\netcoreapp3.1\CalRemainders.pdb
+C:\Users\yathi\source\repos\CalRemainders\CalRemainders\obj\Debug\netcoreapp3.1\CalRemainders.csprojAssemblyReference.cache
+C:\Users\yathi\source\repos\CalRemainders\CalRemainders\obj\Debug\netcoreapp3.1\CalRemainders.AssemblyInfoInputs.cache
+C:\Users\yathi\source\repos\CalRemainders\CalRemainders\obj\Debug\netcoreapp3.1\CalRemainders.AssemblyInfo.cs
+C:\Users\yathi\source\repos\CalRemainders\CalRemainders\obj\Debug\netcoreapp3.1\CalRemainders.dll
+C:\Users\yathi\source\repos\CalRemainders\CalRemainders\obj\Debug\netcoreapp3.1\CalRemainders.pdb

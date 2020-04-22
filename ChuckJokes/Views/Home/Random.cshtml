@@ -1,0 +1,41 @@
+﻿@model HomeDetailViewModel
+@{
+   ViewBag.Title = "RandomJokes";
+}
+    <div class="card-body text-center ">
+        
+       
+       <input type="button" id="1" value="ON" style="color:blue"
+           onclick="toggle(this);">
+    <div id="message_display" style="display:none;"><h4>@Model.Random.Joke</h4></div>
+
+        <script src="jquery-1.12.4.min.js"></script>
+        <script>
+            //When the page has loaded.
+          function toggle(button) {
+              if (document.getElementById("1").value == "OFF") {
+                   document.getElementById("message_display").style.display = "none";
+             document.getElementById("1").value = "ON";
+               }
+
+                else {
+                 
+                      document.getElementById("message_display").style.display = "block";
+                      setTimeout(function () {
+                          window.location.reload(1);
+                      }, 5000);
+
+                      document.getElementById("1").value = "OFF";
+              
+                }
+
+           } 
+
+    
+
+        </script>
+    
+
+
+    </div>
+

@@ -1,0 +1,23 @@
+﻿
+
+@model IEnumerable<Category>
+@{
+
+    ViewBag.Title = "CategoryList";
+}
+
+
+    <nav class="navbar navbar-expand-sm ">
+
+        @foreach (var category in Model)
+        {
+        
+
+        <h4><pre> @Html.ActionLink(category.Items, "Details", new { category = category.Items })</pre> </h4>
+       
+        }
+
+    </nav>
+
+
+ 
